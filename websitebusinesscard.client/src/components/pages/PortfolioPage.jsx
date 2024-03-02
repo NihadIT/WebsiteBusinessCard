@@ -2,6 +2,7 @@
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './PortfolioPage.css';
+import { Fade } from "react-awesome-reveal";
 
 function PortfolioPage() {
 
@@ -38,6 +39,7 @@ function PortfolioPage() {
                 {slider}
             </div>
             <div className="wrapper">
+             <Fade>
             <div className="description">
                 Мы - команда талантливых архитекторов и дизайнеров интерьера, представляем вам наши работы,
                 воплощающие в себе искусство и инновационный подход к созданию пространств. Вдохновленные
@@ -45,7 +47,9 @@ function PortfolioPage() {
                 функциональных и вдохновляющих интерьеров. Наши работы отражают наше стремление к гармонии, стилю и комфорту,
                 придавая каждому пространству индивидуальность и уют. Погрузитесь в мир наших творений и дайте своим мечтам
                 о идеальном интерьере стать реальностью с нами.
-            </div>
+                    </div>
+            </Fade>
+            <Fade>
             <div className="work-process">
                 <h2 className="process-title">Этапы нашей работы</h2>
                 <ol className="process-list">
@@ -74,7 +78,9 @@ function PortfolioPage() {
                         <div className="process-description">Финальное оформление и декорирование интерьера</div>
                     </li>
                 </ol>
-            </div>
+                    </div>
+            </Fade>
+            <Fade>
             <div className="advantages">
                 <h2 className="advantages-title">Преимущества работы с нами</h2>
                 <div className="advantages-content">
@@ -89,7 +95,8 @@ function PortfolioPage() {
                         <p>5. Постоянная связь с клиентом на всех этапах проекта.</p>
                     </div>
                 </div>
-            </div>
+                    </div>
+             </Fade>
             <div className="contacts" id="contacts">
                 <div className="left_block">
                     <span>СВЯЖИТЕСЬ С НАМИ</span>

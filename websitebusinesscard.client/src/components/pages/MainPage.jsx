@@ -1,4 +1,5 @@
 ﻿import './MainPage.css';
+import { Fade } from "react-awesome-reveal";
 
 function MainPage() {
 
@@ -9,9 +10,11 @@ function MainPage() {
                     <button>СМОТРЕТЬ<br />ПОРТФОЛИО</button>
                 </div>
             </div>
+           
             <div className="main_content">
                 <div className="wrapper">
                     <div className="about_us section" id="about_us">
+                     <Fade>
                     <p className="blog_title">НАПОЛНИМ ВАШЕ ПРОСТРАНСТВО <br /><span>ИНДИВИДУАЛЬНЫМ СМЫСЛОМ</span></p>
                     <div className="blog_context">
                         <div className="blog_info">
@@ -21,8 +24,10 @@ function MainPage() {
                                 И по итогу результат удовлетворяет даже самого требовательного заказчика.</p>
                         </div>
                         <img src='/images/room.jpg' alt="#" />
-                        </div>
+                            </div>
+                        </Fade>
                     </div>
+                    <Fade>
                     <div className="services_info section" id="services_info">
                         <p className="blog_title">УСЛУГИ</p>
                         <ul className="list_services">
@@ -41,7 +46,9 @@ function MainPage() {
                                 </div>
                             </li>
                         </ul>
-                    </div>
+                        </div>
+                    </Fade>
+                    <Fade>
                     <div className="portfolio_info section" id="portfolio_info">
                         <p className="blog_title">ПОРТФОЛИО</p>
                         <div className="portfolio_desk">
@@ -69,7 +76,8 @@ function MainPage() {
                         <div className="circle_portfolio">
                             <button>ВСЕ<br />ПОРТФОЛИО</button>
                         </div>
-                    </div>
+                        </div>
+                    </Fade>
                     <div className="contacts section" id="contacts">
                         <div className="left_block">
                             <span>СВЯЖИТЕСЬ С НАМИ</span>
@@ -94,7 +102,7 @@ function MainPage() {
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
 
 
     return (
