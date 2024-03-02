@@ -1,0 +1,164 @@
+﻿.portfolio-content {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.slider {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px 0;
+}
+
+.slick-slide img {
+    width: 80%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.description,
+.work-process,
+.advantages,
+.contacts {
+    margin: 50px 200px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    color: #e3e3e3b7;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+    .description:hover {
+        text-shadow: 0.5px 1px 0 gray;
+    }
+
+.process-title,
+.advantages-title {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.process-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.process-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.process-icon {
+    background-color: #ff6f61;
+    color: white;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.process-description,
+.advantages-description {
+    color: white;
+    font-size: 16px;
+}
+
+.advantages-content {
+    display: flex;
+    align-items: center;
+}
+
+.advantages-image img {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.contacts {
+    display: flex;
+}
+
+    .contacts .left_block {
+        flex: 1;
+        color: lightgray;
+        margin-left: 20px;
+    }
+
+        .contacts .left_block .phone {
+            display: flex;
+            margin: 30px 0 10px 0;
+        }
+
+.social {
+    margin-left: 30px;
+}
+
+    .social img {
+        width: 30%;
+        margin: 0 5px;
+    }
+
+.contacts .right_block {
+    flex: 1;
+}
+
+.right_block p {
+    color: white;
+    font-size: 35px;
+    padding: 0px 0 30px 0;
+}
+
+    .right_block p span {
+        display: block;
+        margin-left: 15%;
+    }
+
+        .right_block p span:last-child {
+            display: block;
+            margin-left: 30%;
+        }
+
+.right_block input[type="text"],
+.right_block input[type="checkbox"] {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.right_block input[type="text"] {
+    border-bottom: 1px dashed white;
+}
+
+.right_block input[type="submit"] {
+    display: block;
+    margin: 20px 0;
+    background-color: transparent;
+    color: lightgray;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid gray;
+}
+
+    .right_block input[type="submit"]:hover {
+        background-color: #d4d4d45d;
+    }

@@ -53,7 +53,7 @@ export default defineConfig({
             '^/images': {
                 target: 'https://localhost:7170/',
                 secure: false
-            }
+            },
         },
         port: 5173,
         https: {
