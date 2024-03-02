@@ -37,6 +37,7 @@ function PortfolioPage() {
             <div className="slider">
                 {slider}
             </div>
+            <div className="wrapper">
             <div className="description">
                 Мы - команда талантливых архитекторов и дизайнеров интерьера, представляем вам наши работы,
                 воплощающие в себе искусство и инновационный подход к созданию пространств. Вдохновленные
@@ -89,7 +90,7 @@ function PortfolioPage() {
                     </div>
                 </div>
             </div>
-            <div className="contacts section" id="contacts">
+            <div className="contacts" id="contacts">
                 <div className="left_block">
                     <span>СВЯЖИТЕСЬ С НАМИ</span>
                     <div className="phone">
@@ -109,6 +110,7 @@ function PortfolioPage() {
                     <input type="checkbox" />
                     <span>Соглашаюсь с политикой обработки персональных данных</span>
                     <input type="submit" content="ОТПРАВИТЬ" />
+                </div>
                 </div>
             </div>
         </div>
