@@ -27,3 +27,30 @@
         font-size : 14px;
     }
 
+
+@media screen and (max-width: 768px) {
+
+    header {
+        position: static;
+    }
+
+    .logo img {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .top_menu {
+        flex-direction: column; 
+        margin-top: 20px;
+    }
+
+        .top_menu a {
+            margin: 10px 0; 
+            font-size: 14px; 
+            text-align: center;
+        }
+
+        .top_menu a:hover {
+            background-color: #a2a2a21b;
+        }
+}

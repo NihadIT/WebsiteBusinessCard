@@ -190,3 +190,93 @@ img {
     .right_block input[type="submit"]:hover {
         background-color: #d4d4d45d;
     }
+
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .portfolio-content {
+        padding-top: 30px;
+    }
+
+    .description {
+        text-align: justify-all;
+        font-size: 14px;
+    }
+
+    .process-list {
+       margin: 0 0px;
+    }
+
+    .process-item {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .process-description {
+        font-size: 18px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .process-icon {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: white;
+        color: black;
+    }
+
+    .advantages-content {
+        display: block;
+    }
+
+    .advantages-image img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slick-slide img {
+        width: 95%; 
+        border-radius: 10px; 
+    }
+
+    .description,
+    .work-process,
+    .advantages {
+        margin: 30px 0; 
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+        .contacts .left_block,
+        .contacts .right_block {
+            width: 100%; 
+            margin: 0; 
+            padding: 20px; 
+        }
+
+            .contacts .right_block input[type="text"],
+            .contacts .right_block input[type="submit"] {
+                width: 90%; 
+                margin: 10px auto; 
+            }
+
+    .right_block input[type="submit"]:hover {
+        background-color: #d4d4d45d; 
+    }
+}

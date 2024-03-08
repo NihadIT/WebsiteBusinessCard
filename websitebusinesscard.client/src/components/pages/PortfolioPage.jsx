@@ -29,7 +29,7 @@ function PortfolioPage() {
             <img src="/images/office.jpg" alt="Slide 4" />
         </div>
         <div>
-            <img src="/images/office.jpg" alt="Slide 5" />
+            <img src="/images/room.jpg" alt="Slide 5" />
             </div>
     </Slider>
 
@@ -47,7 +47,7 @@ function PortfolioPage() {
                 функциональных и вдохновляющих интерьеров. Наши работы отражают наше стремление к гармонии, стилю и комфорту,
                 придавая каждому пространству индивидуальность и уют. Погрузитесь в мир наших творений и дайте своим мечтам
                 о идеальном интерьере стать реальностью с нами.
-                    </div>
+             </div>
             </Fade>
             <Fade>
             <div className="work-process">

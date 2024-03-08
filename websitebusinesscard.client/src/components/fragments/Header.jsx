@@ -4,6 +4,7 @@ import "./Header.css";
 function Header() {
     const logoUrl = '/images/logo.png';
     const [activeSection, setActiveSection] = useState(null);
+    const [expanded, setExpanded] = useState(false);
 
     useEffect(() => {
         const handleIntersection = (entries) => {
